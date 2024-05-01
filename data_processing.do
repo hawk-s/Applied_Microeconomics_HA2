@@ -204,28 +204,6 @@ tabulate lshappy, missing
 tabulate lsladder, missing
 
 
-
-// I would use the variable bhalive1 - since that might be a significant predictor of happiness... if the child died...
-// and I would estimate if twins increase happiness (IS THERE ANY VARIABLE TELLING IF THE TWINS ARE OF THE SAME GENDER?). if the second child increases happiness, also conditional if it is girl or boy - depending also if the first child was girl or boy... testing the hypothesis of mixed gender...
-// additionally, we have a variable about expectations to the future... might tell us about how positively the person thinks... the current state might be endogenous on this (as stated the SWB - subj. well-being is hedonic variable--meaning it does not have objective, but rather subjective definition - the expectation might give additional info)
-
-//so first we replicate the simple paper analysis - the third child (where the first two children are of different sex)-> increase in happiness
-
-//then we use the 'twinning' instrument (hopefully there is an indicator of the twins' sex composition)
-//third we might try to do the same based on just one child (but beware we are in developing countries...) -> so we can rather study if boys are still preffered over girls or so...
-
-//in the above we should use the simple IV estimation, as well as the multivariate case - with the expectation to the future (possible multicollinearity - case of both indep.vars../ spurious regression - case of indep. and dep. vars, with current life satisfaction, but might not be...e.g. those less satisfied might think more positively or vice versa..), also if any of the children died - that is important, or at least that might be expected...
-
-//clarify: what is treatment here?: having two children with mixed gender ... having twins with mixed gender?
-//		   what do we instrument?: guess the variable of having more children since it is endogenous --culture, age, religion etc.. but the sex composition is very likely exogenous.. also twinning (but might be genes or so...) -> but are not we creating a selection bias by selecting two children families only? -> we do, so we check robustness with twinning status - hopefully thats more random..
-
-//lastly interestingly - we might test an unrelated question, if postive thinking increases the chance of having boy/girl... might expect boy
-
-//we need to test the instruments validity - run regression on having more children (first stage in 2SLS) - run the tests... if ok, we can use the 2. stage or so, I guess:)
-
-
-
-
 // Save the core dataset
 save core_data.dta, replace
 
