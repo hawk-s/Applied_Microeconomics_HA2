@@ -1,1 +1,6 @@
-Home Assignment 2 for the subject Applied Microeconometrics done by Michael Tor and Jan Hrušák
+# Home Assignment 2 - Applied Microeconometrics - IES FSV UK SS2023/2024
+## Supporting data processing and data analysis material
+## Done by Michael Tor and Jan Hrušák
+
+
+
